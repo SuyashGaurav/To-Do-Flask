@@ -7,11 +7,8 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
-- [Project Name Suggestions](#project-name-suggestions)
 
 ## Project Description
 
@@ -39,4 +36,6 @@ Before running the application, make sure you have the following dependencies in
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/flask-todo-app.git
+   git clone [https://github.com/your-username/flask-todo-app.git](https://github.com/SuyashGaurav/To-Do-Flask.git)https://github.com/SuyashGaurav/To-Do-Flask.git
+
+   
