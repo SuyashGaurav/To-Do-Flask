@@ -35,7 +35,7 @@ Before running the application, make sure you have the following dependencies in
 
 1. Clone the repository to your local machine:
 
-   ```
+   ```bash
    git clone https://github.com/SuyashGaurav/To-Do-Flask.git
    ```
 
