@@ -3,16 +3,25 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
+- [Hosted Web App](#hosted-web-app)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Acknowledgments](#acknowledgments)
-- [Hosted Web App](#hosted-web-app)
+
 
 ## Project Description
 
 This Flask To-Do App is a simple web application that allows users to create, manage, and track their tasks. Users can add new tasks, mark them as completed, update task descriptions, and delete tasks as needed. The application uses Flask as the web framework and SQLAlchemy to interact with an SQLite database for storing task data.
+
+## Hosted Web App
+
+This Flask To-Do App is hosted and accessible online. You can access the live version of the app by clicking the following link:
+
+[Flask To-Do App](https://todo-flask-webapp.onrender.com/)
+
+Feel free to try it out and manage your tasks from anywhere!
 
 ## Features
 
@@ -57,12 +66,4 @@ Before running the application, make sure you have the following dependencies in
 
 ## Acknowledgments
 Thanks to the Flask and SQLAlchemy communities for their excellent documentation and resources.
-
-## Hosted Web App
-
-This Flask To-Do App is hosted and accessible online. You can access the live version of the app by clicking the following link:
-
-[Flask To-Do App](https://todo-flask-webapp.onrender.com/)
-
-Feel free to try it out and manage your tasks from anywhere!
 
