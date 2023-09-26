@@ -8,6 +8,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Acknowledgments](#acknowledgments)
+- [Hosted Web App](#hosted-web-app)
 
 ## Project Description
 
@@ -50,9 +51,18 @@ Before running the application, make sure you have the following dependencies in
    python app.py
    ```
 ## Usage
-- o add a new task, enter a description in the input field and click the "Add Task" button.
+- To add a new task, enter a description in the input field and click the "Add Task" button.
 - To update a task, click the "Edit" button next to the task, make your changes, and click the "Update" button.
 - To delete a task, click the "Delete" button next to the task.
 
 ## Acknowledgments
 Thanks to the Flask and SQLAlchemy communities for their excellent documentation and resources.
+
+## Hosted Web App
+
+This Flask To-Do App is hosted and accessible online. You can access the live version of the app by clicking the following link:
+
+[Flask To-Do App](https://todo-flask-webapp.onrender.com/)
+
+Feel free to try it out and manage your tasks from anywhere!
+
