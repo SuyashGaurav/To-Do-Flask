@@ -7,7 +7,6 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
 ## Project Description
@@ -50,5 +49,10 @@ Before running the application, make sure you have the following dependencies in
    ```
    python app.py
    ```
-   
-   
+## Usage
+- o add a new task, enter a description in the input field and click the "Add Task" button.
+- To update a task, click the "Edit" button next to the task, make your changes, and click the "Update" button.
+- To delete a task, click the "Delete" button next to the task.
+
+## Acknowledgments
+Thanks to the Flask and SQLAlchemy communities for their excellent documentation and resources.
