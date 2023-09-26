@@ -6,25 +6,25 @@
 
 {%block body %}
 
-<h1 style="text-align: center; margin-top: 30px;">Task Master</h1>
+<h1 style="text-align: center; margin-top: 30px; font-family: fantasy;">Task Master</h1>
 
 {% if tasks|length < 1 %}
 <div class="jumbotron">
 <h4 class="text-center display-5">There are no tasks, create one below!</h4>
 </div>
 {% else %}
-<div class="container-sm shadow-lg p-5 mb-3 bg-white rounded">
+<div class="container-sm shadow-lg p-5 mb-3 rounded" style="background-color:white;">
     <div class="row">
-      <div class="col col-sm-5 border border-1"><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Task</span></div>
-      <div class="col col-sm-3 border border-1"><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Added</span></div>
-      <div class="col col-sm-3 border border-1"><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Actions</span></div>
+      <div class="col col-sm-5 border border-1"><span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:xx-large;">Task</span></div>
+      <div class="col col-sm-3 border border-1"><span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:xx-large;">Added</span></div>
+      <div class="col col-sm-4 border border-1"><span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:xx-large;">Actions</span></div>
       <hr>
     {% for task in tasks %}
         <!-- <div class="w-100 d-none d-md-block"></div> -->
 
-        <div class="col col-sm-5 font-monospace">{{task.content}}</div>
+        <div class="col col-sm-5" style="font-family:cursive">{{task.content}}</div>
         <div class="col col-sm-3 font-monospace">{{task.date_created.strftime("%Y-%m-%d %H:%M:%S")}}</div>
-        <div class="col col-sm-3">
+        <div class="col col-sm-4 p-1">
             <a class="btn btn-outline-danger" href="/delete/{{task.id}}" role="button">Delete</a>
             <a class="btn btn-outline-info" href="/update/{{task.id}}" role="button">Update</a>
         </div>
@@ -43,4 +43,10 @@
 </form>
 </div>
 <br>
+<div id="clockContainer">
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+</div>
+
 {% endblock %}
