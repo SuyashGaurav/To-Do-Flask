@@ -38,5 +38,17 @@ Before running the application, make sure you have the following dependencies in
    ```bash
    git clone https://github.com/SuyashGaurav/To-Do-Flask.git
    ```
-
+2. Navigate to the project directory:
+   ```
+   cd To-Do-Flask
+   ```
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the Flask application:
+   ```
+   python app.py
+   ```
+   
    
